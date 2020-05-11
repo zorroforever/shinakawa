@@ -2,4 +2,7 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'scrooloose/nerdtree'
+repo = 'majutsushi/tagbar'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
