@@ -30,3 +30,8 @@ mkdir ~/.cache/dein
 sh ./installer.sh ~/.cache/dein
 
 ~/.config/nvim/init.vim
+
+6. ctagsのインストール
+
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+
