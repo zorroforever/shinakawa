@@ -12,9 +12,6 @@ repo = 'valloric/youcompleteme'
 repo = 'tpope/vim-surround'
 
 [[plugins]]
-repo = 'tpope/vim-surround'
-
-[[plugins]]
 repo = 'fatih/vim-go'
 
 [[plugins]]
@@ -22,3 +19,16 @@ repo = 'nlknguyen/papercolor-theme'
 
 [[plugins]]
 repo = 'nsf/gocode'
+
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
