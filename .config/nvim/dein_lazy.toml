@@ -32,3 +32,5 @@ repo = 'nathanaelkane/vim-indent-guides'
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
