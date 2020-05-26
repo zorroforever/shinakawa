@@ -34,3 +34,16 @@ repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'easymotion/vim-easymotion'
+hook_add = '''
+let g:EasyMotion_smartcase = 1
+map <Leader><leader>h <Plug>(easymotion-linebackward)
+map <Leader><Leader>j <Plug>(easymotion-j)
+map <Leader><Leader>k <Plug>(easymotion-k)
+map <Leader><leader>l <Plug>(easymotion-lineforward)
+map <Leader><leader>. <Plug>(easymotion-repeat)
+'''
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+

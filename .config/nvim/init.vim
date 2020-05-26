@@ -1,7 +1,8 @@
+" set nu
 if &compatible
   set nocompatible
 endif
-
+let mapleader=","
 " dein.vimインストール時に指定したディレクトリをセット
 let s:dein_dir = expand('~/.cache/dein')
 
