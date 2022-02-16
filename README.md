@@ -70,3 +70,6 @@ sudo docker run -d --name="rabbit" -p 15672:15672 5672:5672 rabbitmq:3-managemen
 sudo archlinux-java status
 sudo archlinux-java set xxx
 ```
+
+## before start vmware 
+sudo modprobe -a vmw_vmci vmmon
