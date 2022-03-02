@@ -73,3 +73,20 @@ sudo archlinux-java set xxx
 
 ## before start vmware 
 sudo modprobe -a vmw_vmci vmmon
+
+## get ssl vpn cert and key
+### get sha1:
+```
+openssl s_client -connect vpn.example.com:443 -showcerts 2>/dev/null </dev/null | awk '/-----BEGIN/,/-----END/ { print $0 }' | openssl x509 -noout -fingerprint -sha1 | sed 's/Fingerprint=//' | sed 's/://g'
+```
+### get cert:
+```
+openssl pkcs12 -in test.p12 -clcerts -nokeys -out cert.pem
+```
+### get key and decrypt it:
+```
+openssl pkcs12 -in test.p12 -nocerts -out key.pem
+openssl rsa -in key.pem -out newkey.pem
+
+```
+
